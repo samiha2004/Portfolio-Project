@@ -1,0 +1,119 @@
+
+:root {
+    --maincolor: #ff6464;
+}
+.continer {
+    width: 100%;
+    height: 100%;
+    padding: 0 10%;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+}
+
+.continer {
+    width: 100%;
+    height: 100%;
+
+}
+
+header {
+    margin: 20px 40px;
+
+
+}
+
+header nav a {
+    text-decoration: none;
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+
+
+}
+
+header nav ul li {
+    padding-right: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 17px;
+    color: black;
+}
+
+header nav ul li:hover {
+    color: var(--maincolor);
+}
+
+
+
+
+.lastdiv {
+    padding: 30px;
+    padding-left: 23%;
+}
+
+.severaldiv {
+    display: flex;
+    padding-top: 20px;
+gap: 10PX;
+
+}
+
+.severaldiv p {
+    padding-bottom: 20px;
+    line-height: 1.6;
+    width: 80%;
+   
+}
+.severaldiv .centerdiv{
+    display: flex;
+    padding-top: 10px;
+    width: 50%;
+    
+}
+.severaldiv .centerdiv span{
+    background-color: #21243D;
+    color: white;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    height: 20px;
+    padding: 12px;
+    padding-top: 3px;
+}
+.severaldiv .centerdiv p{
+    color: #8695A4;
+    padding-top: 0;
+}
+.severaldiv {
+   padding: 30px 0;
+}
+.title p{
+    font-weight: bold;
+    font-size: 20px;
+}
+footer div{
+    display: flex;
+    padding-top: 5%;
+    justify-content: center;
+
+}
+i{
+    font-size: 199%;
+    padding-bottom: 20px;
+    padding-top: 83px;
+    padding-left: 20px;
+}
+footer p{
+    padding-bottom: 50px;
+    text-align: center;
+}
